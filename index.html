@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <h1>JavaScript Calculator</h1>
+
+
+<div id="calculator" class="calculator">
+
+  <button id="clear" class="clear" value="C">C</button>
+
+  <div id="viewer" class="viewer screen" value=""></div>
+
+  <button class="num button" value="7">7</button>
+  <button class="num button"  value="8" >8</button>
+  <button class="num button"  value="9">9</button>
+  <button data-ops="plus" class=" actions "  data_value="+">+</button>
+
+  <button class="num button" value="4" >4</button>
+  <button class="num button" value="5">5</button>
+  <button class="num button"  value="6">6</button>
+  <button data-ops="minus" class=" actions" data_value="-" >-</button>
+
+  <button class="num button" value="1">1</button>
+  <button class="num button" value="2">2</button>
+  <button class="num button" value="3">3</button>
+  <button data-ops="times" class=" actions" data_value="*">*</button>
+
+  <button class="num button" value="0">0</button>
+  <button class="num button" value=".">.</button>
+  <button id="equals" class="equals  "value="=" >=</button>
+  <button data-ops="divided by" class=" actions" data_value="/">/</button>
+</div>
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
